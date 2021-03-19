@@ -1,0 +1,105 @@
+body {
+  text-align: center; /*Alinhamento texto no site*/
+  font-family: Open Sans, sans-serif; /* fonte principal Open Sans / fonte segundária sans-serif */
+  background-color: #8a71c9; /*Cor do plano de fundo #hexadecimal*/
+  color: #ffffff; /* Cor da fonte */
+  margin: 0px 0px 30px 0px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h2 {
+  /*elemento h2*/
+  color: #2a0074;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 22px;
+  font-style: italic;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+/*classificar para diferenciar a cor dos h3*/
+/*elemento .titulo-verde, propriedade cor*/
+.titulo-verde {
+  color: #04ff9f;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.titulo-vermelho {
+  color: #ff9e9e;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.titulo-amarelo {
+  color: #ffe36d;
+  font-size: 22px;
+  font-style: italic;
+}
+
+section {
+  width: 60%; /*largura do texto na seção usar unidade de medida relativa de facil adaptação(%) 60%  em relação ao body*/
+  margin: 0 auto; /*margin automatica nas laterais*/
+}
+
+section section {
+  width: 100%;
+}
+
+/* Propriedade margem(margim) superior(top), direita(right) inferior(bottom), esquerda(left)  em sentido horário
+  neste caso tenho 4 margens, 4 valores e 4 linhas de código ou 4 margens,2 valores, margim (top/bottom) e (right/left) 1 linha de código top e bottom em uma linha de código. Todas as margens com o mesmo valor 4 margens, 1 valor e 1 linha de código*/
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 2;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #99ffff;
+  font: 700;
+}
+
+/*cor do menu principal e */
+.principal {
+  background: #ff6cb5;
+  height: 40px;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+/*menu principal*/
+.principal li {
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 89px;
+}
+
+/*cor da letra do meu principal*/
+.principal a {
+  color: white;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+button {
+  background: #41f341;
+  border: 1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+}
